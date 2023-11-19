@@ -4,6 +4,8 @@ import { WrapperSignIn } from "@/features/WrapperSignIn/WrapperSignIn";
 import { SignInNumber } from "@/entities/SignInNumber/SignInNumber";
 
 const SignIn = () => {
+    console.log("Place2.rest");
+
     return (
         <div className={css.container}>
             <WrapperSignIn>
