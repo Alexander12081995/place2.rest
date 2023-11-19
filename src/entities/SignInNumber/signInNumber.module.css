@@ -1,0 +1,22 @@
+.container {
+    max-width: 416px;
+    text-align: center;
+}
+.subTitle {
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.btn {
+    margin-top: 16px;
+}
+
+.text {
+    color: rgba(0, 0, 0, 0.65);
+}
+.politic {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+}

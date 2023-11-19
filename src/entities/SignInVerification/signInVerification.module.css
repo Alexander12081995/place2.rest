@@ -1,0 +1,41 @@
+.arrow {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.blockContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text {
+    margin-top: 8px;
+    max-width: 448px;
+}
+
+.verificationCode {
+    margin-top: 24px;
+}
+.btn {
+    margin-top: 16px;
+}
+.timer {
+    margin-top: 8px;
+}
+.success {
+    margin-top: 24px;
+    margin-bottom: 4px;
+}

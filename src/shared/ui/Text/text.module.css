@@ -1,0 +1,51 @@
+.textHeading {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.textTertiary {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.textSecondary {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.colorTextHeading {
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.colorTextTertiary {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.colorTextSecondary {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.colorTextDisabled {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.colorWarningBase {
+    color: #faad14;
+}
+
+.colorErrorBase {
+    color: #ff4d4f;
+}

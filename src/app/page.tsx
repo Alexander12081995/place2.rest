@@ -1,5 +1,17 @@
-import css from "./page.module.css";
+"use client";
+
+import React from "react";
+import css from "./home.module.css";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-    return <div>hello next</div>;
+    const router = useRouter();
+
+    return (
+        <div className={css.container}>
+            <h1 className={css.title} onClick={() => router.push("/sign-in")}>
+                Войти
+            </h1>
+        </div>
+    );
 }
